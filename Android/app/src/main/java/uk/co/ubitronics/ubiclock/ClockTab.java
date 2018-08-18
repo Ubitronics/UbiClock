@@ -6,11 +6,6 @@ import android.view.LayoutInflater;
 
 import android.view.View;
 import android.view.ViewGroup;
-import android.widget.AnalogClock;
-import android.widget.Toast;
-
-import java.text.DateFormat;
-import java.util.Date;
 
 /**
  * A simple {@link Fragment} subclass.
@@ -25,7 +20,7 @@ public class ClockTab extends Fragment {
     public View onCreateView(LayoutInflater inflater, ViewGroup container,
                              Bundle savedInstanceState) {
         // Inflate the layout for this fragment
-        return inflater.inflate(R.layout.fragment_clock_tab, container, false);
+        return inflater.inflate(R.layout.clock_tab, container, false);
 
 
 

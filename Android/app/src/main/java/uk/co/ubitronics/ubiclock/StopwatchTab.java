@@ -23,7 +23,7 @@ public class StopwatchTab extends Fragment {
     public View onCreateView(LayoutInflater inflater, ViewGroup container,
                              Bundle savedInstanceState) {
         // Inflate the layout for this fragment
-        return inflater.inflate(R.layout.fragment_stopwatch_tab, container, false);
+        return inflater.inflate(R.layout.stopwatch_tab, container, false);
     }
 
 }
