@@ -5,10 +5,13 @@
     android:layout_height="match_parent"
     tools:context=".StopwatchTab">
 
-    <!-- TODO: Update blank fragment layout -->
     <TextView
         android:layout_width="match_parent"
         android:layout_height="match_parent"
-        android:text="@string/hello_blank_fragment" />
+<<<<<<< HEAD
+        android:text="TAB" />
+=======
+        android:text="@string/stopwatch_text1" />
+>>>>>>> ca0480ed27f14c7418f37042c81ab73268ddc5cf
 
 </FrameLayout>

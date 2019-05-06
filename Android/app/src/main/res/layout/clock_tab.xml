@@ -23,12 +23,22 @@
         android:layout_height="wrap_content"
         android:layout_gravity="center" />
 
+    <TextView
+        android:id="@+id/textView2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/clock_text2"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:layout_gravity="center"
+        android:layout_margin="20sp" />
+
     <DigitalClock
         android:id="@+id/ubiDigitalClock"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="DigitalClock"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:textColor="@color/clockColor"
         android:layout_gravity="center"
-        android:layout_margin="20sp" />
+        android:layout_margin="14sp" />
 
 </LinearLayout>

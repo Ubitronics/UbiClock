@@ -5,5 +5,12 @@
     <string name="tab2">Stopwatch</string>
     <string name="tab3">Timer</string>
 
-    <string name="clock_text1">The Time</string>
+    <string name="clock_text1">The Time (Analog)</string>
+    <string name="clock_text2">The Time (Digital)</string>
+
+    <string name="stopwatch_text1">stopwatch starts at 0. press start and it counts up. click SPLIT
+        and it records the time below and carries on counting. clear reset and the time stops at 0,
+        but does not clear the grid below. click clear and it clears the grid below but does not stop the timer</string>
+
+    <string name="timer_text1">input a time, eg. 20mins. press start. it counts down and sounds alarm when at 0.</string>
 </resources>
